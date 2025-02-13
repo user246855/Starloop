@@ -1,5 +1,23 @@
-# HELLO WORLD 
+HTML Content:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden URL Example</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a sample page with a hidden URL.</p>
 
-THIS IS THE URL 
+    <!-- Hidden URL -->
+    <div class="hidden-url">https://192.168.12.35:443/</div>
 
-********https://192.168.12.35:443/********
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
+
+Extracted Hidden URL:
+https://192.168.12.35:443/
